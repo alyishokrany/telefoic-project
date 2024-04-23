@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lalezar", system-ui;
+    
+}
+
+.btn{
+    width: 10rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    padding: .75rem 1.5rem;
+    background-color: #6e0ef6;
+    }
+    .btn a{
+        text-decoration: none;
+        color: #f8f7fc;
+        font-size: 1.5rem;
+        font-family: sans-serif;
+    }
+    .btn:hover{
+        cursor: pointer;
+        background-color: #3e42f6;
+    
+    }
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 5rem;
+   height: 10vh;
+}
+
+nav .fa-bars{
+    display: none;
+}
+
+nav .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+
+}
+
+nav .logo i{
+    color: #6e0ef6;
+    padding: 0.75rem;
+}
+
+nav .nav-items{
+    display: flex;
+    list-style: none;
+}
+nav .nav-items .nav-item{
+    
+    padding: 0 1rem;
+
+}
+
+
+nav .nav-items .nav-link{
+text-decoration: none;
+color: #4e547e;
+font-size: 1.4rem;
+}
+
+nav .nav-items .nav-link:hover{
+    color: #6e0ef6;
+}
+
+/*--hero--start*/
+/*--استخدام hero class عشان لو استخدمنا خلفية تكون الصفحة كلها مش القسم--*/
+.hero{
+    background-color: #f8f7fc;
+}
+
+.hero-section{
+   
+    max-width:1366;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.hero-section .content{
+    display: flex;
+    flex-direction: column;/*- عشان الكلام يكون تحت بعض-*/
+
+}
+
+.hero-section .content h4{
+color: #6e0ef6;
+font-size: 1.6rem;
+margin-bottom: 1rem;
+}
+
+.hero-section .content h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    
+}
+
+.hero-section .content p span{
+color: #6e0ef6;
+}
+.hero-section .content p{
+color: rgb(24, 22, 22);
+font-size: 1.4rem;
+}
+
+.hero-section .content .btn{
+width: 10rem;
+margin-top: 3rem;
+border-radius: 0.5rem;
+outline: none;
+border: none;
+padding: .75rem 1.5rem;
+background-color: #6e0ef6;
+}
+
+.hero-section .content .btn:hover{
+    cursor: pointer;
+    background-color: #3e42f6;
+
+}
+.hero-section .content .btn a{
+    text-decoration: none;
+    color: #f8f7fc;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.hero-section  .hero-img img{
+    width: 300px;
+    border-radius: .75rem;
+}
+
+/*--hero--end*/
+
+/*--features--start*/
+
+section.features{
+padding: 2rem 0;
+background-color: #f8f7fc;
+}
+
+.features .features-section{
+    max-width:1366;
+margin: 0 auto;
+padding: 0 5rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.features .features-section h4{
+    color: #6e0ef6;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.features-section .qualities{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.features-section .qualities .quality{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #fff;
+padding: 2rem;
+max-width: 17rem;
+border-radius: .75rem;
+margin: 1rem;
+
+}
+
+.features-section .qualities .quality:hover{
+    border: 2px solid #6e0ef6;
+}
+
+.features-section .qualities .quality i{
+
+    font-size: 2rem ;
+    color: #6e0ef6;
+    margin-bottom: 1rem;
+}
+
+.features-section .qualities .quality h3{
+font-size: 1.6rem;
+margin-bottom: 1rem;
+
+}
+
+.features-section .qualities .quality p{
+font-size: 1.2rem;
+text-align: center;
+color: #4e547e;
+}
+
+
+
+
+/*--features--end*/
+
+/*--phones--start*/
+.newwest-phones{
+    padding-top: 5rem ;
+
+}
+
+.phones-section{
+    max-width: 1366px; 
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.phones-section h4{
+    color: #6e0ef6;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+
+.phones-section .phones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+
+.phones .phone{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.phone img{
+    margin-bottom: 1rem;
+    transition: .5s;
+}
+
+.phone img:hover{
+    scale: 1.1;
+}
+.phone h3{
+    font-size: 1.6rem;
+}
+
+.phones-section .btn{
+    width:15rem;
+    margin-bottom:1rem ;
+    align-self: center;/*لما نكون نعمل عنصر واحد ونجيبه فى النص*/
+}
+
+footer{
+background-color: #f8f7fc;
+height: 15vh;
+margin-top: 5rem;
+padding: 2rem 0;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:1366px;;
+    margin: 0 auto;
+    padding: 0 5rem;
+  
+}
+
+.footer-section p{
+    font-size:1.2rem ;
+    margin-bottom: 1rem;
+}
+
+.footer-section .socail{
+    margin-bottom: 1rem;
+
+}
+
+.footer-section .socail i{
+    
+    font-size: 1.6rem;
+    padding: 0 .5rem;
+    
+}
+
+.footer-section .socail i:hover{
+    color: #6e0ef6;
+    cursor: pointer;
+}
+
+/*--phones--end*/
+
+
+@media ( max-width:1300px ) {
+   *{
+    font-size: 85%;
+   } 
+}
+
+
+@media ( max-width:1070px ) {
+    *{
+     font-size: 80%;
+    } 
+ }
+
+ 
+@media ( max-width:1000px ) {
+    *{
+     text-align: center;
+    } 
+    .hero-img{
+        display: none;
+    }
+    .hero-section{
+        align-items: center;
+        padding: 2rem 0;
+        width: 50%;
+
+    }
+    .hero-section .btn{
+        align-self: center;
+    }
+    .hero .content{
+        margin-top: 2rem;
+    }
+
+    .hero-section{
+        height: 70vh;
+    }
+.features-section .qualities{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features .features-section{
+    align-items: center;
+}
+
+
+
+
+ }
+
+ 
+@media ( max-width:600px ) {
+    .hero-section .content h1{
+font-size: 2rem;
+    }
+    .phones-section{
+align-items: center;
+    }
+    .phones-section .phones{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+ }
+
+ @media ( max-width:500px ) {
+    .hero-section .content h1{
+font-size: 2rem;
+    }
+    .phones-section{
+align-items: center;
+    }
+    .phones-section .phones{
+        grid-template-columns: 1fr ;
+    }
+
+    nav{
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+
+
+nav .fa-bars{
+    display: block;
+    font-size: 3rem;
+}
+nav .nav-items{
+    display: none;
+   position: absolute;
+   left: 0;
+   top: 10vh;
+   flex-direction: column;
+   width: 100%;
+   background-color: #6e0ef6;
+   padding: 2rem 0;
+   
+ }
+ 
+ nav .nav-items.active{
+    display: flex;
+ }
+
+ nav .nav-items.nav-item{
+    margin: 1rem 0;
+ }
+
+ nav .nav-items.nav-item a{
+    color: #f8f7fc;
+ }
+
+ }
+
+
+
